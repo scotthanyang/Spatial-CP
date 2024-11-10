@@ -20,8 +20,8 @@ from utils import *
 np.random.seed(30)
 
 ###### read data
-nmdf=pd.read_csv('C:/Users/scott/Desktop/Network Measurement Project/data/weight_NM.csv')
-nmdf=pd.read_csv('C:/Users/scott/Desktop/Network Measurement Project/data/weight_GA10ds.csv')
+nmdf=pd.read_csv('weight_NM.csv')
+nmdf=pd.read_csv('weight_GA10ds.csv')
 
 ### randomly generate s and X(s) (s is uniformly over the unit grid [0,1]*[0,1])
 s = np.array(nmdf[["X","Y"]])
